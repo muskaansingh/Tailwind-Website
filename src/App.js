@@ -4,6 +4,7 @@ import Content from './Components/Content';
 import Analytics from './Components/Analytics';
 import Newsletter from './Components/Newsletter';
 import Cards from './Components/Cards';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
+      <Footer />
     </div>
   );
 }
