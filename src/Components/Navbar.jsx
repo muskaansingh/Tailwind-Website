@@ -13,11 +13,11 @@ const Navbar = () => {
                 React
             </h1>
             <ul className='hidden md:flex'>
-                <li className='p-5'>Home</li>
-                <li className='p-5'>Dashboard</li>
-                <li className='p-5'>About Us</li>
-                <li className='p-5'>Resources</li>
-                <li className='p-5'>Contact Us</li>
+                <li className='p-5 cursor-pointer'>Home</li>
+                <li className='p-5 cursor-pointer'>Dashboard</li>
+                <li className='p-5 cursor-pointer'>About Us</li>
+                <li className='p-5 cursor-pointer'>Resources</li>
+                <li className='p-5 cursor-pointer'>Contact Us</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -27,11 +27,11 @@ const Navbar = () => {
                     React
                 </h1>
                 <ul className='uppercase p-4'>
-                    <li className='p-5 font-normal border-b border-gray-600'>Home</li>
-                    <li className='p-5 font-normal border-b border-gray-600'>Dashboard</li>
-                    <li className='p-5 font-normal border-b border-gray-600'>About Us</li>
-                    <li className='p-5 font-normal border-b border-gray-600'>Resources</li>
-                    <li className='p-5 font-normal'>Contact Us</li>
+                    <li className='p-5 font-normal border-b border-gray-600 cursor-pointer'>Home</li>
+                    <li className='p-5 font-normal border-b border-gray-600 cursor-pointer'>Dashboard</li>
+                    <li className='p-5 font-normal border-b border-gray-600 cursor-pointer'>About Us</li>
+                    <li className='p-5 font-normal border-b border-gray-600 cursor-pointer'>Resources</li>
+                    <li className='p-5 font-normal cursor-pointer'>Contact Us</li>
                 </ul>
             </div>
         </div>

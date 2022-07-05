@@ -9,11 +9,11 @@ const Footer = () => {
                     <h1 className='text-2xl text-[teal]'>React!</h1>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
                     <div className='flex justify-center m-4'>
-                        <FaFacebookSquare size={30} />
-                        <FaInstagram size={30} />
-                        <FaTwitterSquare size={30} />
-                        <FaGithubSquare size={30} />
-                        <FaDribbbleSquare size={30} />
+                        <FaFacebookSquare size={30} className='cursor-pointer mr-4' />
+                        <FaInstagram size={30} className='cursor-pointer mr-4' />
+                        <FaTwitterSquare size={30} className='cursor-pointer mr-4' />
+                        <FaGithubSquare size={30} className='cursor-pointer mr-4' />
+                        <FaDribbbleSquare size={30} className='cursor-pointer' />
                     </div>
                 </div>
             </div>
