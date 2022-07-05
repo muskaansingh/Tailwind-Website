@@ -3,9 +3,9 @@ import Laptop from '../assets/img1.jpeg';
 
 const Analytics = () => {
     return (
-        <div className='md:flex md:justify-center md:items-center bg-white max-w-[1200px] md:m-auto'>
-            <img src={Laptop} className='w-[300px] mx-auto my-4' alt='/' />
-            <div className='md:max-w-[700px] md:mt-10 px-5'>
+        <div className='md:flex md:justify-center md:items-center bg-white max-w-[1240px] md:m-auto'>
+            <img src={Laptop} className='w-[400px] mx-auto my-4' alt='/' />
+            <div className='md:max-w-[840px] md:mt-10 px-5'>
                 <p className='uppercase text-teal-600'>Data Analytics Dashboard</p>
                 <h1 className='md:text-2xl text-xl font-bold py-2'>Manage Data Analytics Centrally</h1>
                 <p>
